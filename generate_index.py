@@ -14,10 +14,18 @@ def url_to_filename(url):
     parsed = urlparse(url)
     path = parsed.path.strip('/')
     if not path:
-        path = 'index'
-    # Replace special characters with underscores
-    filename = path.replace('/', '_').replace('-', '_')
-    return f"{filename}.html"
+        path = 'homepage'  # Root URL goes to homepage.html
+    
+    # Handle blog pages from mykajabi.com
+    if 'mykajabi.com/blog/' in url:
+        # Extract just the blog post slug from the URL
+        slug = url.split('/blog/')[-1]
+        filename = f"blog_{slug.replace('-', '_')}.html"
+    else:
+        # Replace special characters with underscores
+        filename = path.replace('/', '_').replace('-', '_') + '.html'
+    
+    return filename
 
 def extract_title_from_html(html_content):
     """Extract title from HTML content"""
@@ -38,7 +46,7 @@ def generate_index():
         results = json.load(f)
     
     # Read the template
-    with open('index.html', 'r') as f:
+    with open('index_template.html', 'r') as f:
         template = f.read()
     
     # Generate page cards HTML
@@ -47,6 +55,11 @@ def generate_index():
         filename = url_to_filename(page['url'])
         # Extract title from HTML content
         title = extract_title_from_html(page['html_content'])
+        
+        # Add Blog: prefix for blog pages from mykajabi.com
+        if 'mykajabi.com/blog/' in page['url']:
+            title = f"Blog: {title}"
+        
         page_card = f'''                <div class="page-card">
                     <div class="page-info">
                         <div class="page-title">{title}</div>
@@ -65,9 +78,11 @@ def generate_index():
         pages_html
     )
     
-    # Update the timestamp
+    # Update other template placeholders
     current_time = datetime.datetime.now().isoformat()
-    template = template.replace('2025-07-08T21:37:58.946Z', current_time)
+    template = template.replace('{{TOTAL_PAGES}}', str(len(results)))
+    template = template.replace('{{LAST_UPDATED}}', current_time.split('T')[0])
+    template = template.replace('{{TIMESTAMP}}', current_time)
     
     # Write the final index.html
     with open('index.html', 'w') as f:
@@ -82,6 +97,11 @@ def generate_index():
     print(f"\n📄 Pages included:")
     for i, page in enumerate(results, 1):
         title = extract_title_from_html(page['html_content'])
+        
+        # Add Blog: prefix for blog pages from mykajabi.com
+        if 'mykajabi.com/blog/' in page['url']:
+            title = f"Blog: {title}"
+        
         print(f"   {i:2d}. {title} ({page['url']})")
 
 if __name__ == "__main__":
