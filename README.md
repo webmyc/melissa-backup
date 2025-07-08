@@ -1,23 +1,35 @@
 # Melissa Backup - Kajabi Landing Pages
 
-This repository contains backed up landing pages from Kajabi.
+This is a backup of all Melissa's Kajabi landing pages, including images, CSS, and other assets.
 
-## Scraped Pages
+## Live Site
 
-- [Melissa Louise - The Pleasure Studio](./melissa.respira.live-.html)
+🌐 **https://melissakajabi.respira.live/**
 
-## Assets
+## Features
 
-All images, CSS, and JavaScript files have been downloaded and stored in the `assets/` directory.
+- Complete HTML backup of **31 pages**
+- Downloaded images and assets
+- Responsive design preserved
+- Local hosting ready
+- Enhanced scraper with anti-blocking measures
+
+## Structure
+
+- `index.html` - Main landing page with navigation
+- `assets/` - All downloaded images and resources
+- `scraper_results.json` - Complete scraped content data
+- `enhanced_scraper.py` - Advanced scraper with safety measures
+- Individual page backups
+
+## Deployment
+
+This site is automatically deployed to Vercel via GitHub integration on the respira-dev account with custom domain: **melissakajabi.respira.live**
 
 ## Generated on
 
-2025-07-08T21:37:58.903Z
+2025-07-09T00:58:38.634003
 
 ## Note
 
 These are static backups. Interactive features may not work as expected.
-
-## Live Preview
-
-View the backup at: https://melissa-backup.vercel.app
