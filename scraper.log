@@ -282,3 +282,243 @@
 2025-07-09 00:54:52,872 - INFO - Total URLs failed: 9
 2025-07-09 00:54:52,872 - INFO - Results saved to: scraper_results.json
 2025-07-09 00:54:52,873 - WARNING - Failed URLs: ['https://melissa.respira.live/OpeningLondon', 'https://melissa.respira.live/ManInControl', 'https://melissa.respira.live/man-in-control-group-program', 'https://melissa.respira.live/RavishLondon', 'https://melissa.respira.live/TheToplessBrunch', 'https://melissa.respira.live/MasterYourSexualPresence', 'https://melissa.respira.live/LaFemme', 'https://melissa.respira.live/jewel', 'https://melissa.respira.live/man-activated-1']
+2025-07-09 01:13:34,204 - INFO - Loaded 40 URLs from /Users/akunay/Downloads/melissa-backup_URLs_to-scrape.txt
+2025-07-09 01:13:34,204 - INFO - Starting scraping process for 40 URLs
+2025-07-09 01:13:34,204 - INFO - Batch size: 5
+2025-07-09 01:13:34,204 - INFO - Base delay: 2-5 seconds
+2025-07-09 01:13:34,204 - INFO - Remaining URLs to process: 40
+2025-07-09 01:13:34,204 - INFO - Processing batch 1 with 5 URLs
+2025-07-09 01:13:34,204 - INFO - Scraping: https://melissa.respira.live/ (attempt 1/3)
+2025-07-09 01:13:35,277 - INFO - Successfully scraped: https://melissa.respira.live/
+2025-07-09 01:13:35,278 - INFO - Progress: 1/5 URLs completed
+2025-07-09 01:13:35,286 - INFO - Waiting 3.20 seconds...
+2025-07-09 01:13:38,489 - INFO - Scraping: https://melissa.respira.live/blog (attempt 1/3)
+2025-07-09 01:13:39,250 - INFO - Successfully scraped: https://melissa.respira.live/blog
+2025-07-09 01:13:39,250 - INFO - Progress: 2/5 URLs completed
+2025-07-09 01:13:39,258 - INFO - Waiting 4.83 seconds...
+2025-07-09 01:13:44,095 - INFO - Scraping: https://melissa.respira.live/contact (attempt 1/3)
+2025-07-09 01:13:44,653 - INFO - Successfully scraped: https://melissa.respira.live/contact
+2025-07-09 01:13:44,653 - INFO - Progress: 3/5 URLs completed
+2025-07-09 01:13:44,655 - INFO - Waiting 2.28 seconds...
+2025-07-09 01:13:46,936 - INFO - Scraping: https://melissa.respira.live/instagram-link-in-bio-page (attempt 1/3)
+2025-07-09 01:13:47,897 - INFO - Successfully scraped: https://melissa.respira.live/instagram-link-in-bio-page
+2025-07-09 01:13:47,897 - INFO - Progress: 4/5 URLs completed
+2025-07-09 01:13:47,911 - INFO - Waiting 3.87 seconds...
+2025-07-09 01:13:51,788 - INFO - Scraping: https://melissa.respira.live/openingRomania (attempt 1/3)
+2025-07-09 01:13:52,454 - INFO - Successfully scraped: https://melissa.respira.live/openingRomania
+2025-07-09 01:13:52,454 - INFO - Progress: 5/5 URLs completed
+2025-07-09 01:13:52,467 - INFO - Batch completed. Pausing 17.66 seconds before next batch...
+2025-07-09 01:14:10,131 - INFO - Processing batch 2 with 5 URLs
+2025-07-09 01:14:10,133 - INFO - Scraping: https://melissa.respira.live/man-in-control (attempt 1/3)
+2025-07-09 01:14:10,789 - INFO - Successfully scraped: https://melissa.respira.live/man-in-control
+2025-07-09 01:14:10,789 - INFO - Progress: 6/5 URLs completed
+2025-07-09 01:14:10,796 - INFO - Waiting 4.78 seconds...
+2025-07-09 01:14:15,572 - INFO - Scraping: https://melissa.respira.live/practice-audios (attempt 1/3)
+2025-07-09 01:14:16,126 - INFO - Successfully scraped: https://melissa.respira.live/practice-audios
+2025-07-09 01:14:16,127 - INFO - Progress: 7/5 URLs completed
+2025-07-09 01:14:16,137 - INFO - Waiting 3.12 seconds...
+2025-07-09 01:14:19,268 - INFO - Scraping: https://melissa.respira.live/OpeningLondon (attempt 1/3)
+2025-07-09 01:14:19,746 - WARNING - Attempt 1 failed for https://melissa.respira.live/OpeningLondon: 404 Client Error: Not Found for url: https://melissa.respira.live/OpeningLondon
+2025-07-09 01:14:19,746 - INFO - Waiting 2 seconds before retry...
+2025-07-09 01:14:21,747 - INFO - Scraping: https://melissa.respira.live/OpeningLondon (attempt 2/3)
+2025-07-09 01:14:22,166 - WARNING - Attempt 2 failed for https://melissa.respira.live/OpeningLondon: 404 Client Error: Not Found for url: https://melissa.respira.live/OpeningLondon
+2025-07-09 01:14:22,166 - INFO - Waiting 4 seconds before retry...
+2025-07-09 01:14:26,170 - INFO - Scraping: https://melissa.respira.live/OpeningLondon (attempt 3/3)
+2025-07-09 01:14:26,620 - WARNING - Attempt 3 failed for https://melissa.respira.live/OpeningLondon: 404 Client Error: Not Found for url: https://melissa.respira.live/OpeningLondon
+2025-07-09 01:14:26,621 - ERROR - All attempts failed for https://melissa.respira.live/OpeningLondon
+2025-07-09 01:14:26,621 - ERROR - Failed to scrape: https://melissa.respira.live/OpeningLondon
+2025-07-09 01:14:26,628 - INFO - Waiting 2.54 seconds...
+2025-07-09 01:14:29,175 - INFO - Scraping: https://melissa.respira.live/ManInControl (attempt 1/3)
+2025-07-09 01:14:29,694 - WARNING - Attempt 1 failed for https://melissa.respira.live/ManInControl: 404 Client Error: Not Found for url: https://melissa.respira.live/ManInControl
+2025-07-09 01:14:29,694 - INFO - Waiting 2 seconds before retry...
+2025-07-09 01:14:31,700 - INFO - Scraping: https://melissa.respira.live/ManInControl (attempt 2/3)
+2025-07-09 01:14:32,500 - WARNING - Attempt 2 failed for https://melissa.respira.live/ManInControl: 404 Client Error: Not Found for url: https://melissa.respira.live/ManInControl
+2025-07-09 01:14:32,501 - INFO - Waiting 4 seconds before retry...
+2025-07-09 01:14:36,506 - INFO - Scraping: https://melissa.respira.live/ManInControl (attempt 3/3)
+2025-07-09 01:14:36,926 - WARNING - Attempt 3 failed for https://melissa.respira.live/ManInControl: 404 Client Error: Not Found for url: https://melissa.respira.live/ManInControl
+2025-07-09 01:14:36,926 - ERROR - All attempts failed for https://melissa.respira.live/ManInControl
+2025-07-09 01:14:36,926 - ERROR - Failed to scrape: https://melissa.respira.live/ManInControl
+2025-07-09 01:14:36,932 - INFO - Waiting 2.92 seconds...
+2025-07-09 01:14:39,855 - INFO - Scraping: https://melissa.respira.live/man-in-control-group-program (attempt 1/3)
+2025-07-09 01:14:40,329 - WARNING - Attempt 1 failed for https://melissa.respira.live/man-in-control-group-program: 404 Client Error: Not Found for url: https://melissa.respira.live/man-in-control-group-program
+2025-07-09 01:14:40,329 - INFO - Waiting 2 seconds before retry...
+2025-07-09 01:14:42,331 - INFO - Scraping: https://melissa.respira.live/man-in-control-group-program (attempt 2/3)
+2025-07-09 01:14:42,770 - WARNING - Attempt 2 failed for https://melissa.respira.live/man-in-control-group-program: 404 Client Error: Not Found for url: https://melissa.respira.live/man-in-control-group-program
+2025-07-09 01:14:42,770 - INFO - Waiting 4 seconds before retry...
+2025-07-09 01:14:46,774 - INFO - Scraping: https://melissa.respira.live/man-in-control-group-program (attempt 3/3)
+2025-07-09 01:14:47,242 - WARNING - Attempt 3 failed for https://melissa.respira.live/man-in-control-group-program: 404 Client Error: Not Found for url: https://melissa.respira.live/man-in-control-group-program
+2025-07-09 01:14:47,242 - ERROR - All attempts failed for https://melissa.respira.live/man-in-control-group-program
+2025-07-09 01:14:47,242 - ERROR - Failed to scrape: https://melissa.respira.live/man-in-control-group-program
+2025-07-09 01:14:47,263 - INFO - Batch completed. Pausing 16.64 seconds before next batch...
+2025-07-09 01:15:03,906 - INFO - Processing batch 3 with 5 URLs
+2025-07-09 01:15:03,907 - INFO - Scraping: https://melissa.respira.live/RavishLondon (attempt 1/3)
+2025-07-09 01:15:04,328 - WARNING - Attempt 1 failed for https://melissa.respira.live/RavishLondon: 404 Client Error: Not Found for url: https://melissa.respira.live/RavishLondon
+2025-07-09 01:15:04,328 - INFO - Waiting 2 seconds before retry...
+2025-07-09 01:15:06,337 - INFO - Scraping: https://melissa.respira.live/RavishLondon (attempt 2/3)
+2025-07-09 01:15:06,814 - WARNING - Attempt 2 failed for https://melissa.respira.live/RavishLondon: 404 Client Error: Not Found for url: https://melissa.respira.live/RavishLondon
+2025-07-09 01:15:06,814 - INFO - Waiting 4 seconds before retry...
+2025-07-09 01:15:10,818 - INFO - Scraping: https://melissa.respira.live/RavishLondon (attempt 3/3)
+2025-07-09 01:15:11,247 - WARNING - Attempt 3 failed for https://melissa.respira.live/RavishLondon: 404 Client Error: Not Found for url: https://melissa.respira.live/RavishLondon
+2025-07-09 01:15:11,248 - ERROR - All attempts failed for https://melissa.respira.live/RavishLondon
+2025-07-09 01:15:11,248 - ERROR - Failed to scrape: https://melissa.respira.live/RavishLondon
+2025-07-09 01:15:11,254 - INFO - Waiting 2.23 seconds...
+2025-07-09 01:15:13,486 - INFO - Scraping: https://melissa.respira.live/TheToplessBrunch (attempt 1/3)
+2025-07-09 01:15:13,905 - WARNING - Attempt 1 failed for https://melissa.respira.live/TheToplessBrunch: 404 Client Error: Not Found for url: https://melissa.respira.live/TheToplessBrunch
+2025-07-09 01:15:13,906 - INFO - Waiting 2 seconds before retry...
+2025-07-09 01:15:15,913 - INFO - Scraping: https://melissa.respira.live/TheToplessBrunch (attempt 2/3)
+2025-07-09 01:15:16,424 - WARNING - Attempt 2 failed for https://melissa.respira.live/TheToplessBrunch: 404 Client Error: Not Found for url: https://melissa.respira.live/TheToplessBrunch
+2025-07-09 01:15:16,424 - INFO - Waiting 4 seconds before retry...
+2025-07-09 01:15:20,429 - INFO - Scraping: https://melissa.respira.live/TheToplessBrunch (attempt 3/3)
+2025-07-09 01:15:21,375 - WARNING - Attempt 3 failed for https://melissa.respira.live/TheToplessBrunch: 404 Client Error: Not Found for url: https://melissa.respira.live/TheToplessBrunch
+2025-07-09 01:15:21,376 - ERROR - All attempts failed for https://melissa.respira.live/TheToplessBrunch
+2025-07-09 01:15:21,376 - ERROR - Failed to scrape: https://melissa.respira.live/TheToplessBrunch
+2025-07-09 01:15:21,380 - INFO - Waiting 3.36 seconds...
+2025-07-09 01:15:24,744 - INFO - Scraping: https://melissa.respira.live/MasterYourSexualPresence (attempt 1/3)
+2025-07-09 01:15:25,180 - WARNING - Attempt 1 failed for https://melissa.respira.live/MasterYourSexualPresence: 404 Client Error: Not Found for url: https://melissa.respira.live/MasterYourSexualPresence
+2025-07-09 01:15:25,180 - INFO - Waiting 2 seconds before retry...
+2025-07-09 01:15:27,185 - INFO - Scraping: https://melissa.respira.live/MasterYourSexualPresence (attempt 2/3)
+2025-07-09 01:15:27,892 - WARNING - Attempt 2 failed for https://melissa.respira.live/MasterYourSexualPresence: 404 Client Error: Not Found for url: https://melissa.respira.live/MasterYourSexualPresence
+2025-07-09 01:15:27,892 - INFO - Waiting 4 seconds before retry...
+2025-07-09 01:15:31,897 - INFO - Scraping: https://melissa.respira.live/MasterYourSexualPresence (attempt 3/3)
+2025-07-09 01:15:32,329 - WARNING - Attempt 3 failed for https://melissa.respira.live/MasterYourSexualPresence: 404 Client Error: Not Found for url: https://melissa.respira.live/MasterYourSexualPresence
+2025-07-09 01:15:32,329 - ERROR - All attempts failed for https://melissa.respira.live/MasterYourSexualPresence
+2025-07-09 01:15:32,329 - ERROR - Failed to scrape: https://melissa.respira.live/MasterYourSexualPresence
+2025-07-09 01:15:32,335 - INFO - Waiting 3.62 seconds...
+2025-07-09 01:15:35,964 - INFO - Scraping: https://melissa.respira.live/LaFemme (attempt 1/3)
+2025-07-09 01:15:36,418 - WARNING - Attempt 1 failed for https://melissa.respira.live/LaFemme: 404 Client Error: Not Found for url: https://melissa.respira.live/LaFemme
+2025-07-09 01:15:36,418 - INFO - Waiting 2 seconds before retry...
+2025-07-09 01:15:38,425 - INFO - Scraping: https://melissa.respira.live/LaFemme (attempt 2/3)
+2025-07-09 01:15:38,861 - WARNING - Attempt 2 failed for https://melissa.respira.live/LaFemme: 404 Client Error: Not Found for url: https://melissa.respira.live/LaFemme
+2025-07-09 01:15:38,861 - INFO - Waiting 4 seconds before retry...
+2025-07-09 01:15:42,865 - INFO - Scraping: https://melissa.respira.live/LaFemme (attempt 3/3)
+2025-07-09 01:15:43,354 - WARNING - Attempt 3 failed for https://melissa.respira.live/LaFemme: 404 Client Error: Not Found for url: https://melissa.respira.live/LaFemme
+2025-07-09 01:15:43,354 - ERROR - All attempts failed for https://melissa.respira.live/LaFemme
+2025-07-09 01:15:43,354 - ERROR - Failed to scrape: https://melissa.respira.live/LaFemme
+2025-07-09 01:15:43,359 - INFO - Waiting 4.95 seconds...
+2025-07-09 01:15:48,316 - INFO - Scraping: https://melissa.respira.live/jewel (attempt 1/3)
+2025-07-09 01:15:48,806 - WARNING - Attempt 1 failed for https://melissa.respira.live/jewel: 404 Client Error: Not Found for url: https://melissa.respira.live/jewel
+2025-07-09 01:15:48,806 - INFO - Waiting 2 seconds before retry...
+2025-07-09 01:15:50,808 - INFO - Scraping: https://melissa.respira.live/jewel (attempt 2/3)
+2025-07-09 01:15:51,615 - WARNING - Attempt 2 failed for https://melissa.respira.live/jewel: 404 Client Error: Not Found for url: https://melissa.respira.live/jewel
+2025-07-09 01:15:51,615 - INFO - Waiting 4 seconds before retry...
+2025-07-09 01:15:55,620 - INFO - Scraping: https://melissa.respira.live/jewel (attempt 3/3)
+2025-07-09 01:15:56,065 - WARNING - Attempt 3 failed for https://melissa.respira.live/jewel: 404 Client Error: Not Found for url: https://melissa.respira.live/jewel
+2025-07-09 01:15:56,065 - ERROR - All attempts failed for https://melissa.respira.live/jewel
+2025-07-09 01:15:56,065 - ERROR - Failed to scrape: https://melissa.respira.live/jewel
+2025-07-09 01:15:56,075 - INFO - Batch completed. Pausing 11.22 seconds before next batch...
+2025-07-09 01:16:07,295 - INFO - Processing batch 4 with 5 URLs
+2025-07-09 01:16:07,297 - INFO - Scraping: https://melissa.respira.live/man-activated-1 (attempt 1/3)
+2025-07-09 01:16:07,722 - WARNING - Attempt 1 failed for https://melissa.respira.live/man-activated-1: 404 Client Error: Not Found for url: https://melissa.respira.live/man-activated-1
+2025-07-09 01:16:07,723 - INFO - Waiting 2 seconds before retry...
+2025-07-09 01:16:09,728 - INFO - Scraping: https://melissa.respira.live/man-activated-1 (attempt 2/3)
+2025-07-09 01:16:10,164 - WARNING - Attempt 2 failed for https://melissa.respira.live/man-activated-1: 404 Client Error: Not Found for url: https://melissa.respira.live/man-activated-1
+2025-07-09 01:16:10,164 - INFO - Waiting 4 seconds before retry...
+2025-07-09 01:16:14,169 - INFO - Scraping: https://melissa.respira.live/man-activated-1 (attempt 3/3)
+2025-07-09 01:16:14,588 - WARNING - Attempt 3 failed for https://melissa.respira.live/man-activated-1: 404 Client Error: Not Found for url: https://melissa.respira.live/man-activated-1
+2025-07-09 01:16:14,588 - ERROR - All attempts failed for https://melissa.respira.live/man-activated-1
+2025-07-09 01:16:14,589 - ERROR - Failed to scrape: https://melissa.respira.live/man-activated-1
+2025-07-09 01:16:14,595 - INFO - Waiting 3.25 seconds...
+2025-07-09 01:16:17,853 - INFO - Scraping: https://melissa.respira.live/surrender (attempt 1/3)
+2025-07-09 01:16:18,343 - INFO - Successfully scraped: https://melissa.respira.live/surrender
+2025-07-09 01:16:18,345 - INFO - Progress: 8/5 URLs completed
+2025-07-09 01:16:18,352 - INFO - Waiting 4.62 seconds...
+2025-07-09 01:16:22,977 - INFO - Scraping: https://melissa.respira.live/master-your-sexual-presence (attempt 1/3)
+2025-07-09 01:16:23,494 - INFO - Successfully scraped: https://melissa.respira.live/master-your-sexual-presence
+2025-07-09 01:16:23,494 - INFO - Progress: 9/5 URLs completed
+2025-07-09 01:16:23,500 - INFO - Waiting 3.98 seconds...
+2025-07-09 01:16:27,489 - INFO - Scraping: https://melissa.respira.live/oyc (attempt 1/3)
+2025-07-09 01:16:28,191 - INFO - Successfully scraped: https://melissa.respira.live/oyc
+2025-07-09 01:16:28,191 - INFO - Progress: 10/5 URLs completed
+2025-07-09 01:16:28,199 - INFO - Waiting 4.32 seconds...
+2025-07-09 01:16:32,525 - INFO - Scraping: https://melissa.respira.live/comparte (attempt 1/3)
+2025-07-09 01:16:33,067 - INFO - Successfully scraped: https://melissa.respira.live/comparte
+2025-07-09 01:16:33,067 - INFO - Progress: 11/5 URLs completed
+2025-07-09 01:16:33,073 - INFO - Batch completed. Pausing 12.62 seconds before next batch...
+2025-07-09 01:16:45,695 - INFO - Processing batch 5 with 5 URLs
+2025-07-09 01:16:45,696 - INFO - Scraping: https://melissa.respira.live/the-pleasure-studio-policy (attempt 1/3)
+2025-07-09 01:16:46,095 - INFO - Successfully scraped: https://melissa.respira.live/the-pleasure-studio-policy
+2025-07-09 01:16:46,095 - INFO - Progress: 12/5 URLs completed
+2025-07-09 01:16:46,113 - INFO - Waiting 3.17 seconds...
+2025-07-09 01:16:49,284 - INFO - Scraping: https://melissa.respira.live/pussy-talks (attempt 1/3)
+2025-07-09 01:16:49,777 - INFO - Successfully scraped: https://melissa.respira.live/pussy-talks
+2025-07-09 01:16:49,777 - INFO - Progress: 13/5 URLs completed
+2025-07-09 01:16:49,800 - INFO - Waiting 3.32 seconds...
+2025-07-09 01:16:53,117 - INFO - Scraping: https://melissa.respira.live/pussy-talks-thank-you-page (attempt 1/3)
+2025-07-09 01:16:54,767 - INFO - Successfully scraped: https://melissa.respira.live/pussy-talks-thank-you-page
+2025-07-09 01:16:54,768 - INFO - Progress: 14/5 URLs completed
+2025-07-09 01:16:54,791 - INFO - Waiting 3.18 seconds...
+2025-07-09 01:16:57,976 - INFO - Scraping: https://melissa.respira.live/podcasts (attempt 1/3)
+2025-07-09 01:16:58,350 - INFO - Successfully scraped: https://melissa.respira.live/podcasts
+2025-07-09 01:16:58,352 - INFO - Progress: 15/5 URLs completed
+2025-07-09 01:16:58,374 - INFO - Waiting 2.58 seconds...
+2025-07-09 01:17:00,962 - INFO - Scraping: https://melissa.respira.live/block (attempt 1/3)
+2025-07-09 01:17:02,553 - INFO - Successfully scraped: https://melissa.respira.live/block
+2025-07-09 01:17:02,554 - INFO - Progress: 16/5 URLs completed
+2025-07-09 01:17:02,579 - INFO - Batch completed. Pausing 12.55 seconds before next batch...
+2025-07-09 01:17:15,131 - INFO - Processing batch 6 with 5 URLs
+2025-07-09 01:17:15,136 - INFO - Scraping: https://melissa.respira.live/deeper-relating (attempt 1/3)
+2025-07-09 01:17:15,712 - INFO - Successfully scraped: https://melissa.respira.live/deeper-relating
+2025-07-09 01:17:15,713 - INFO - Progress: 17/5 URLs completed
+2025-07-09 01:17:15,741 - INFO - Waiting 4.75 seconds...
+2025-07-09 01:17:20,492 - INFO - Scraping: https://melissa.respira.live/free-community-events (attempt 1/3)
+2025-07-09 01:17:20,957 - INFO - Successfully scraped: https://melissa.respira.live/free-community-events
+2025-07-09 01:17:20,958 - INFO - Progress: 18/5 URLs completed
+2025-07-09 01:17:21,040 - INFO - Waiting 3.63 seconds...
+2025-07-09 01:17:24,676 - INFO - Scraping: https://melissa.respira.live/occupy-your-cock (attempt 1/3)
+2025-07-09 01:17:25,732 - INFO - Successfully scraped: https://melissa.respira.live/occupy-your-cock
+2025-07-09 01:17:25,732 - INFO - Progress: 19/5 URLs completed
+2025-07-09 01:17:25,753 - INFO - Waiting 4.88 seconds...
+2025-07-09 01:17:30,633 - INFO - Scraping: https://melissa.respira.live/menscoaching (attempt 1/3)
+2025-07-09 01:17:32,117 - INFO - Successfully scraped: https://melissa.respira.live/menscoaching
+2025-07-09 01:17:32,123 - INFO - Progress: 20/5 URLs completed
+2025-07-09 01:17:32,156 - INFO - Waiting 2.86 seconds...
+2025-07-09 01:17:35,021 - INFO - Scraping: https://melissa.respira.live/womenscoaching (attempt 1/3)
+2025-07-09 01:17:35,458 - INFO - Successfully scraped: https://melissa.respira.live/womenscoaching
+2025-07-09 01:17:35,459 - INFO - Progress: 21/5 URLs completed
+2025-07-09 01:17:35,485 - INFO - Batch completed. Pausing 12.74 seconds before next batch...
+2025-07-09 01:17:48,234 - INFO - Processing batch 7 with 5 URLs
+2025-07-09 01:17:48,234 - INFO - Scraping: https://melissa.respira.live/5-day-free-pleasure-immersion (attempt 1/3)
+2025-07-09 01:17:48,904 - INFO - Successfully scraped: https://melissa.respira.live/5-day-free-pleasure-immersion
+2025-07-09 01:17:48,904 - INFO - Progress: 22/5 URLs completed
+2025-07-09 01:17:48,922 - INFO - Waiting 4.39 seconds...
+2025-07-09 01:17:53,318 - INFO - Scraping: https://melissa.respira.live/opt-in (attempt 1/3)
+2025-07-09 01:17:53,736 - INFO - Successfully scraped: https://melissa.respira.live/opt-in
+2025-07-09 01:17:53,736 - INFO - Progress: 23/5 URLs completed
+2025-07-09 01:17:53,761 - INFO - Waiting 2.17 seconds...
+2025-07-09 01:17:55,936 - INFO - Scraping: https://melissa.respira.live/5-day-pleasure-thank-you (attempt 1/3)
+2025-07-09 01:17:56,377 - INFO - Successfully scraped: https://melissa.respira.live/5-day-pleasure-thank-you
+2025-07-09 01:17:56,377 - INFO - Progress: 24/5 URLs completed
+2025-07-09 01:17:56,401 - INFO - Waiting 4.32 seconds...
+2025-07-09 01:18:00,724 - INFO - Scraping: https://melissa.respira.live/loud (attempt 1/3)
+2025-07-09 01:18:01,559 - INFO - Successfully scraped: https://melissa.respira.live/loud
+2025-07-09 01:18:01,560 - INFO - Progress: 25/5 URLs completed
+2025-07-09 01:18:01,570 - INFO - Waiting 2.21 seconds...
+2025-07-09 01:18:03,788 - INFO - Scraping: https://melissa.respira.live/contact-me (attempt 1/3)
+2025-07-09 01:18:04,264 - INFO - Successfully scraped: https://melissa.respira.live/contact-me
+2025-07-09 01:18:04,264 - INFO - Progress: 26/5 URLs completed
+2025-07-09 01:18:04,291 - INFO - Batch completed. Pausing 19.09 seconds before next batch...
+2025-07-09 01:18:23,379 - INFO - Processing batch 8 with 5 URLs
+2025-07-09 01:18:23,381 - INFO - Scraping: https://melissa.respira.live/opt-in-db771637-dd78-4d8a-84dd-8d47753512cc (attempt 1/3)
+2025-07-09 01:18:23,818 - INFO - Successfully scraped: https://melissa.respira.live/opt-in-db771637-dd78-4d8a-84dd-8d47753512cc
+2025-07-09 01:18:23,818 - INFO - Progress: 27/5 URLs completed
+2025-07-09 01:18:23,838 - INFO - Waiting 2.12 seconds...
+2025-07-09 01:18:25,957 - INFO - Scraping: https://melissa.respira.live/thank-you-bd8bbfde-1a55-4f99-8693-54f7a51c2798 (attempt 1/3)
+2025-07-09 01:18:26,448 - INFO - Successfully scraped: https://melissa.respira.live/thank-you-bd8bbfde-1a55-4f99-8693-54f7a51c2798
+2025-07-09 01:18:26,448 - INFO - Progress: 28/5 URLs completed
+2025-07-09 01:18:26,461 - INFO - Waiting 2.77 seconds...
+2025-07-09 01:18:29,227 - INFO - Scraping: https://melissa.respira.live/relating-deeper (attempt 1/3)
+2025-07-09 01:18:29,796 - INFO - Successfully scraped: https://melissa.respira.live/relating-deeper
+2025-07-09 01:18:29,797 - INFO - Progress: 29/5 URLs completed
+2025-07-09 01:18:29,821 - INFO - Waiting 3.43 seconds...
+2025-07-09 01:18:33,254 - INFO - Scraping: https://melissa.respira.live/deeperrelatingcheckout (attempt 1/3)
+2025-07-09 01:18:33,747 - INFO - Successfully scraped: https://melissa.respira.live/deeperrelatingcheckout
+2025-07-09 01:18:33,748 - INFO - Progress: 30/5 URLs completed
+2025-07-09 01:18:33,777 - INFO - Waiting 3.48 seconds...
+2025-07-09 01:18:37,260 - INFO - Scraping: https://melissa.respira.live/Pleasurecodeimmersion (attempt 1/3)
+2025-07-09 01:18:37,744 - INFO - Successfully scraped: https://melissa.respira.live/Pleasurecodeimmersion
+2025-07-09 01:18:37,744 - INFO - Progress: 31/5 URLs completed
+2025-07-09 01:18:37,769 - INFO - Scraping completed!
+2025-07-09 01:18:37,769 - INFO - Total URLs processed: 31
+2025-07-09 01:18:37,769 - INFO - Total URLs failed: 9
+2025-07-09 01:18:37,769 - INFO - Results saved to: scraper_results.json
+2025-07-09 01:18:37,769 - WARNING - Failed URLs: ['https://melissa.respira.live/OpeningLondon', 'https://melissa.respira.live/ManInControl', 'https://melissa.respira.live/man-in-control-group-program', 'https://melissa.respira.live/RavishLondon', 'https://melissa.respira.live/TheToplessBrunch', 'https://melissa.respira.live/MasterYourSexualPresence', 'https://melissa.respira.live/LaFemme', 'https://melissa.respira.live/jewel', 'https://melissa.respira.live/man-activated-1']

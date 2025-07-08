@@ -115,16 +115,10 @@ class EnhancedKajabiScraper:
                 response = self.session.get(url, timeout=30)
                 response.raise_for_status()
                 
-                soup = BeautifulSoup(response.content, 'html.parser')
-                
-                # Extract content
+                # Save the full HTML content
                 result = {
                     'url': url,
-                    'title': self.extract_title(soup),
-                    'content': self.extract_content(soup),
-                    'images': self.extract_images(soup, url),
-                    'links': self.extract_links(soup, url),
-                    'meta_description': self.extract_meta_description(soup),
+                    'html_content': response.text,
                     'scraped_at': datetime.now().isoformat(),
                     'status_code': response.status_code
                 }

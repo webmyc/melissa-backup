@@ -30,21 +30,8 @@ def generate_html_pages():
             continue
             
         filename = url_to_filename(page['url'])
-        html_content = f'''<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{page['title']}</title>
-</head>
-<body>
-    <h1>{page['title']}</h1>
-    <p><i>URL: {page['url']}</i></p>
-    <div>
-        {page['content']}
-    </div>
-</body>
-</html>'''
+        # Use the full HTML content directly
+        html_content = page['html_content']
         
         # Write the HTML file
         with open(filename, 'w') as f:

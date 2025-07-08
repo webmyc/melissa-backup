@@ -7,6 +7,7 @@ import json
 import datetime
 from urllib.parse import urlparse
 import os
+import re
 
 def url_to_filename(url):
     """Convert URL to filename"""
@@ -17,6 +18,17 @@ def url_to_filename(url):
     # Replace special characters with underscores
     filename = path.replace('/', '_').replace('-', '_')
     return f"{filename}.html"
+
+def extract_title_from_html(html_content):
+    """Extract title from HTML content"""
+    # Use regex to find the title tag
+    title_match = re.search(r'<title[^>]*>(.*?)</title>', html_content, re.IGNORECASE | re.DOTALL)
+    if title_match:
+        title = title_match.group(1).strip()
+        # Remove extra whitespace and newlines
+        title = re.sub(r'\s+', ' ', title)
+        return title
+    return "Untitled Page"
 
 def generate_index():
     """Generate index.html with scraped pages data"""
@@ -33,9 +45,11 @@ def generate_index():
     page_cards = []
     for page in results:
         filename = url_to_filename(page['url'])
+        # Extract title from HTML content
+        title = extract_title_from_html(page['html_content'])
         page_card = f'''                <div class="page-card">
                     <div class="page-info">
-                        <div class="page-title">{page['title']}</div>
+                        <div class="page-title">{title}</div>
                         <div class="page-url">{page['url']}</div>
                     </div>
                     <a href="{filename}" class="page-link" target="_blank">View Page</a>
@@ -67,7 +81,8 @@ def generate_index():
     # List the pages
     print(f"\n📄 Pages included:")
     for i, page in enumerate(results, 1):
-        print(f"   {i:2d}. {page['title']} ({page['url']})")
+        title = extract_title_from_html(page['html_content'])
+        print(f"   {i:2d}. {title} ({page['url']})")
 
 if __name__ == "__main__":
     generate_index()
