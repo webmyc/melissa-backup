@@ -1,0 +1,19 @@
+2025-07-09 01:23:48,434 - INFO - Starting to scrape 3 additional pages
+2025-07-09 01:23:48,434 - INFO - Processing 1/3: https://melissalouise.mykajabi.com/blog/feminine-embodiment-is-such-a-catch-phrase-now-a-days
+2025-07-09 01:23:48,434 - INFO - Scraping: https://melissalouise.mykajabi.com/blog/feminine-embodiment-is-such-a-catch-phrase-now-a-days (attempt 1/3)
+2025-07-09 01:23:49,605 - INFO - Successfully scraped: https://melissalouise.mykajabi.com/blog/feminine-embodiment-is-such-a-catch-phrase-now-a-days
+2025-07-09 01:23:49,615 - INFO - Created HTML file: blog_feminine_embodiment_is_such_a_catch_phrase_now_a_days.html
+2025-07-09 01:23:49,634 - INFO - Added to results: https://melissalouise.mykajabi.com/blog/feminine-embodiment-is-such-a-catch-phrase-now-a-days
+2025-07-09 01:23:49,634 - INFO - Waiting 3.27 seconds...
+2025-07-09 01:23:52,912 - INFO - Processing 2/3: https://melissalouise.mykajabi.com/blog/the-hypocrisy-many-men-refuse-to-address-with-pornography
+2025-07-09 01:23:52,912 - INFO - Scraping: https://melissalouise.mykajabi.com/blog/the-hypocrisy-many-men-refuse-to-address-with-pornography (attempt 1/3)
+2025-07-09 01:23:53,515 - INFO - Successfully scraped: https://melissalouise.mykajabi.com/blog/the-hypocrisy-many-men-refuse-to-address-with-pornography
+2025-07-09 01:23:53,516 - INFO - Created HTML file: blog_the_hypocrisy_many_men_refuse_to_address_with_pornography.html
+2025-07-09 01:23:53,535 - INFO - Added to results: https://melissalouise.mykajabi.com/blog/the-hypocrisy-many-men-refuse-to-address-with-pornography
+2025-07-09 01:23:53,535 - INFO - Waiting 2.06 seconds...
+2025-07-09 01:23:55,604 - INFO - Processing 3/3: https://melissalouise.mykajabi.com/blog/when-it-comes-to-men-love-is-not-enough
+2025-07-09 01:23:55,605 - INFO - Scraping: https://melissalouise.mykajabi.com/blog/when-it-comes-to-men-love-is-not-enough (attempt 1/3)
+2025-07-09 01:23:56,692 - INFO - Successfully scraped: https://melissalouise.mykajabi.com/blog/when-it-comes-to-men-love-is-not-enough
+2025-07-09 01:23:56,697 - INFO - Created HTML file: blog_when_it_comes_to_men_love_is_not_enough.html
+2025-07-09 01:23:56,768 - INFO - Added to results: https://melissalouise.mykajabi.com/blog/when-it-comes-to-men-love-is-not-enough
+2025-07-09 01:23:56,768 - INFO - Scraping completed! Successfully scraped 3 additional pages
